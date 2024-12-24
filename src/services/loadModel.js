@@ -1,5 +1,5 @@
 const tf = require('@tensorflow/tfjs-node');
 async function loadModel() {
-    return tf.loadGraphModel('https://storage.googleapis.com/cancer-prediction-storage/model.json');
+    return tf.loadGraphModel('https://storage.googleapis.com/cancer-prediction-storages/model.json');
 }
 module.exports = loadModel;
